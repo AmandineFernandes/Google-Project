@@ -1,0 +1,129 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    color: rgba(0,0,0,.87); 
+    margin: 8px;
+}
+
+a{
+    margin: 8px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+div{
+    margin: 6px;
+}
+
+.image{
+   width: 1em; 
+   cursor: pointer;
+}
+
+.Connexion{
+    color: white;
+    border-radius: 4px;
+    padding: 9px 9px;
+    margin-right: 15px;
+    background-color: #1a73e8;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 584px;
+    height: 40px;
+    max-height: 100px;
+}
+
+.button{
+    border-radius: 4px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    cursor: pointer;
+    height: 36px;
+    margin: 20px 5px 20px 5px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.logo{
+    display: flex;
+    width: 19em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    margin: 1em;
+}
+
+footer{
+    color: #70757a;
+    background-color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 6px;
+}
+
+.developpementdurable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #70757a;
+    text-decoration: none;
+}
+
+.feuille{
+    height: 14px;
+    margin-right: 6px;
+}
+
+.informations{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    align-items: flex-end; 
+    flex-wrap: wrap;
+    color: #70757a;
+    text-decoration: none;
+    margin: 0;
+    padding: 6px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginfoot{
+    margin-right: 14em;
+}
+
+.informations a {
+    flex-wrap: wrap;
+}
